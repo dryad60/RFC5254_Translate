@@ -6,8 +6,8 @@ A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Proto
 ```
 
 ## 目录
-1. [介绍](./codes/Chapter1.md)
-2. ICE总览
+[1. 介绍](./codes/Chapter1.md)  
+[2. ICE总览](./codes/Chapter2.md)
    1. 收集候选地址
    2. 连接性检查
    3. 候选地址排序
