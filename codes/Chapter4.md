@@ -152,20 +152,36 @@ priority = (2^24) * 126 + (2^8) * (IP precedence) + (2^0) * (256 - component ID)
 
 ICE提供了扩展允许使用一个请求或应答来包含一系列信息来表明端点使用的ICE扩展。如果端点使用了扩展，它必须在ice-options属性表现扩展的token。
 下面是一个包含ICE属性的SDP示例消息，
+
+(```)
 v=0
+
 o=jdoe 2890844526 2890842807 IN IP4 10.0.1.1
+
 s=
+
 c=IN IP4 192.0.2.3
+
 t=0 0
+
 a=ice-pwd:asd88fgpdd777uzjYhagZg
+
 a=ice-ufrag:8hhY
+
 m=audio 45664 RTP/AVP 0
+
 b=RS:0
+
 b=RR:0
+
 a=rtpmap:0 PCMU/8000
+
 a=candidate:1 1 UDP 2130706431 10.0.1.1 8998 typ host
+
 a=candidate:2 1 UDP 1694498815 192.0.2.3 45664 typ srflx raddr
+
 10.0.1.1 rport 8998
+(```)
 
 当端点发送了请求或响应消息，它需要同时准备好在每个候选上接收STUN消息或者媒体数据包。如 11.1小节讨论所示，媒体数据可以在请求/应答的默认地址消息之前，发向一个
 候选地址。
