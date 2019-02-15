@@ -8,28 +8,30 @@ A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Proto
 ## 目录
 [1. 介绍](./codes/Chapter1.md)  
 [2. ICE总览](./codes/Chapter2.md)
-   1. 收集候选地址
-   2. 连接性检查
-   3. 候选地址排序
-   4. 候选地址冻结
-   5. 连接检查安全性
-   6. ICE结论
-   7. Lite实现
-3. 术语
-4. Sending the Initial Offer
-   1. Full Implementation Requirements
-      1. Gathering Candidates
-         1. Host Candidates
-         2. Server Reflexive and Relayed Candidates
-         3. Computing Foundations
-         4. Keeping Candidates Alive
-      2. Prioritizing Candidates
-         1. Recommended Formula
-         2. Guidelines for Choosing Type and Local Preferences
-      3. Eliminating Redundant Candidates
-      4. Choosing Default Candidates
-   2. Lite Implementation Requirements
-   3. Encoding the SDP
-5. Receiving the Initial Offer
+[3. 术语](./codes/Chapter3.md)
+[4. 发送初始化请求](./codes/Chapter4.md)
+[5. 接收初始化请求](./codes/Chapter5.md)
+[6. 响应初始化请求](./codes/Chapter6.md)
+[7. 执行连接性检查](./codes/Chapter7.md)
+[8. 结束ICE流程](./codes/Chapter8.md)
+[9. 后续请求/应答交换](./codes/Chapter9.md)
+[10. 保持连接](./codes/Chapter10.md)
+[11. 媒体数据处理](./codes/Chapter11.md)
+[12. SIP用法](./codes/Chapter12.md)
+[13. 与ANAT的关系](./codes/Chapter13.md)
+[14. 可扩展性](./codes/Chapter14.md)
+[15. 语法书](./codes/Chapter15.md)
+[16. 设置Ta和RTO](./codes/Chapter16.md)
+[17. 例子](./codes/Chapter17.md)
+[18. 安全性问题](./codes/Chapter18.md)
+[19. STUN扩展](./codes/Chapter19.md)
+[20. 部署操作性](./codes/Chapter20.md)
+[21. IANA的探讨](./codes/Chapter21.md)
+[22. IAB的探讨](./codes/Chapter22.md)
+[23. 鸣谢](./codes/Chapter23.md)
+[24. 参照](./codes/Chapter24.md)
+[附录](./codes/Appendix.md)
+
+
 
 
